@@ -91,7 +91,7 @@ table{border-spacing: 0;border-collapse: collapse;}
                          height: 18px;}
 .search-case{display: inline-block;width: 18px;height: 18px}
 .icon-search{
-             z-index: 3;
+             z-index: 4;
              background: url('../images/search_24x24px.png') no-repeat;
              background-size: 18px 18px;}
 .icon-search:hover{
@@ -106,19 +106,19 @@ table{border-spacing: 0;border-collapse: collapse;}
 .icon-close:hover{
                     background: url('../images/close_24x24px_hover.png') no-repeat;
                     background-size: 18px 18px;}
-.site-search{top: 0;
+.site-search{top: 150px;
             left: 0;
             right: 0;
             height: 100px;
             position: absolute;
             background: rgba(255, 255, 255, 0.8);
-            z-index: -1;
+            z-index: 10;
             }
 
-.site-search.search-show{
+.search-show{
                           top: 150px;
                           transition: all ease 0.3s;
-                          z-index: 0;
+                          z-index: -1;
 }
 
 .search-box{text-align: center;padding: 25px 0}

@@ -1,6 +1,6 @@
 
 $(document).ready(function(e){
-    $('.search-case').click(function(e){
+    $('.icon-search').click(function(e){
         $('.site-search').toggleClass('search-show')
         $(this).toggleClass('icon-rearch').toggleClass('icon-close');
     });
